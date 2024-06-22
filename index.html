@@ -7,58 +7,80 @@
     <link rel="title icon" type="image/png" href="images/title-img.png"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-<!--    fontawesome-->
-  <script src="https://kit.fontawesome.com/b6317669d1.js" crossorigin="anonymous"></script>    <title>Pure Bootstrap Website</title>
+    <!--    fontawesome-->
+    <script src="https://kit.fontawesome.com/b6317669d1.js" crossorigin="anonymous"></script>    <title>Pure Bootstrap Website</title>
   </head>
+
   <body>    
-    
-    <nav class="navbar navbar-expand-md navbar-light bg-dark">
-
-      <a class="navbar-brand" href="#">
-        <i class="fas fa-child text-warning fa-2x"></i>
-      </a>
-      <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-between" id="nav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Skills</a>
-          </li>
-          <li class="nav-item dropdown" data-toggle="dropdown">
-            <a class="nav-link text-light text-uppercase font-weight-bold px-3  dropdown-toggle" href="#">Project</a>
-            <div class="dropdown-menu">
-              <a href="" class="dropdown-item">Project1</a>
-              <a href="" class="dropdown-item">Project2</a>
-              <a href="" class="dropdown-item">Project3</a>
-              <a href="" class="dropdown-item">Project4</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light text-uppercase font-weight-bold px-3 " href="#">Contact</a>
-          </li>
-        </ul>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-dark">
+        <a class="navbar-brand" href="#">
+          <i class="fas fa-child text-warning fa-2x"></i>
+        </a>
+        <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
   
-        <form class="form-inline ml-3">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="search">
-                <div class="input-group-append">
-                  <button type="button" class="btn">
-                    <i class="fas fa-search text-muted"></i>
-                  </button>
-                </div>
-            </input>
+        <div class="collapse navbar-collapse justify-content-between" id="nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Skills</a>
+            </li>
+            <li class="nav-item dropdown" data-toggle="dropdown">
+              <a class="nav-link text-light text-uppercase font-weight-bold px-3  dropdown-toggle" href="#">Project</a>
+              <div class="dropdown-menu">
+                <a href="" class="dropdown-item">Project1</a>
+                <a href="" class="dropdown-item">Project2</a>
+                <a href="" class="dropdown-item">Project3</a>
+                <a href="" class="dropdown-item">Project4</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light text-uppercase font-weight-bold px-3 " href="#">Contact</a>
+            </li>
+          </ul>
+    
+          <form class="form-inline ml-3">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="search">
+                  <div class="input-group-append">
+                    <button type="button" class="btn">
+                      <i class="fas fa-search text-muted"></i>
+                    </button>
+                  </div>
+              </input>
+            </div>
+          </form>       
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="promo">
+        <div class="container-fluid">
+          <div class="row bg-info justify-content-center" style="height: 100vh">
+            <div class="column">
+              <h1>
+                <span>pure bootstrap</span><span>website</span>
+              </h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
           </div>
-        </form>       
-      </div>
-    </nav>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      
+    </footer>
+
+
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
